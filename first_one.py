@@ -22,3 +22,5 @@ for step in range(201):
     if step % 20 ==0:
         print(step, sess.run(weights), sess.run(biases))
 
+sess.close()
+
